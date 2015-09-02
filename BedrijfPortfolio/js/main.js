@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 280){  
-			$(".sticky").slideDown();
+			$(".sticky").slideDown("fast");
 	  	}
 	  	else{
-	    	$(".sticky").slideUp();
+	    	$(".sticky").slideUp("fast");
 	  	}
 	});
 

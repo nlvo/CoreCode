@@ -29,7 +29,6 @@ header.sticky {
   	text-align: left;
   	padding-left: 20px;
   	z-index: 2;
-  	-webkit-filter: blur(20px);
   	width: 100%;
 }
 
@@ -90,6 +89,24 @@ hr {
 	cursor: pointer;
 }
 
+.fa {
+	font-size: 40px;
+	color: rgba(0, 52, 89, .5);
+}
+
+a .fa{
+	color: #007ea7;
+	-moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+}
+
+a .fa:hover{
+	color: #003459;
+
+}
+
 input {
 	text-align: center;
 	background-color: rgba(0, 52, 89, .5);
@@ -132,6 +149,10 @@ footer{
 	color: #fff;
 	padding: 10px;
 	background-color: rgba(0, 52, 89, .7);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 @media (max-width: 960px) {
