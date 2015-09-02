@@ -1,11 +1,10 @@
 $(document).ready(function() {
-
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 325){  
-	    	$('header').addClass("sticky");
+		if ($(this).scrollTop() > 280){  
+			$(".sticky").slideDown();
 	  	}
 	  	else{
-	    	$('header').removeClass("sticky");
+	    	$(".sticky").slideUp();
 	  	}
 	});
 

@@ -1,4 +1,3 @@
-
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -18,6 +17,6 @@ if(isset($_POST['interested'])) { // honey pot check
               exit;
         }
             mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-            header("location: 16707://15840.hosts.ma-cloud.nl");
+            header("location: http://www.core-code.nl");
 }
 ?>

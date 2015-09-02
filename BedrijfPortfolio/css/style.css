@@ -16,11 +16,12 @@ header {
 	height: 350px;
 	background-image: url('../img/headerBG.jpg');
 	color: #fff;
-	transition: all 0.4s ease;
 }
 
 header.sticky {
+	display: none;
 	position: fixed;
+	background: none;
 	top: 0;
   	font-size: 24px;
   	line-height: 48px;
@@ -28,8 +29,14 @@ header.sticky {
   	text-align: left;
   	padding-left: 20px;
   	z-index: 2;
+  	-webkit-filter: blur(20px);
   	width: 100%;
 }
+
+.sticky .head-overlay{
+	background: #4c718a;
+}
+
 
 header.sticky .logo{
 	background-image: url('../img/logo_sticky_l.png');
@@ -62,6 +69,16 @@ hr {
 
 .people h1, p {
 	padding-bottom: 20px;
+}
+
+.profpic{
+	width: 150px;
+	height: 150px;
+}
+
+.profpicxl{
+	width: 200px;
+	height: 200px;
 }
 
 .more {
@@ -107,6 +124,14 @@ textarea {
 
 .mail {
 	display: none;
+}
+
+footer{
+	text-align: center;
+	bottom: 0;
+	color: #fff;
+	padding: 10px;
+	background-color: rgba(0, 52, 89, .7);
 }
 
 @media (max-width: 960px) {
