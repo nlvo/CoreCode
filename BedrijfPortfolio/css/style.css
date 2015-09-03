@@ -5,16 +5,12 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
-}
-
-h1{
-	color: #262626;
+	font-family: 'Lato', sans-serif;
 }
 
 .row {
 	text-align: center;
-}
+}	
 
 header {
 	height: 350px;
@@ -37,7 +33,7 @@ header.sticky {
 }
 
 .sticky .head-overlay{
-	background: #4c718a;
+	background: #007EA7;
 }
 
 
@@ -59,10 +55,33 @@ header.sticky .logo{
 	align-items: center; /* align vertical */
 }
 
+.quote {
+	background-color: #007EA7;
+	color: #fff;
+}
+
+.quote p {
+	padding: 10px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.about, .contact h1{
+	padding-top: 30px;
+}
+
 hr {
 	border: 2px solid #007ea7;
-	max-width: 50px;
+	width: 50px;
 	margin: 0 auto;
+}
+
+.about {
+	background-color: #eee;
+}
+
+.about p {
+	padding-top: 10px;
 }
 
 .logo {
@@ -70,35 +89,17 @@ hr {
 	width: 960px;
 	height: 560px;
 }
-/*------- motto ---------*/
-.motto{
-	background-color: #007EA7;
-	padding: 10px;
-}
-.motto h1{
-	color: #fff;
-}
-/*------- service ---------*/
-.service .fa{
-	color: #007ea7;
-}
-/*------- about ---------*/
-.about{
-	background-color: #eee;
-}
-.about p{
-	padding: 25px;
-}
-/*------- people ---------*/
-.people{
-	/*background-color: #f1f1f1;*/
+
+.people h1, p {
+	padding-bottom: 20px;
 }
 
-.people hr{
-	margin-bottom: 30px;
+.people h1{
+	padding-top: 20px;
 }
-.people p {
-	padding-bottom: 20px;
+
+.p1, .p2{
+	padding-top: 20px;
 }
 
 .profpic{
@@ -109,6 +110,7 @@ hr {
 .profpicxl{
 	width: 200px;
 	height: 200px;
+	padding-top: 20px;
 }
 
 .more {
@@ -120,6 +122,19 @@ hr {
 	cursor: pointer;
 }
 
+.servcont{
+	padding-top: 20px;
+}
+
+.servcont i, .options i{
+	color: #007ea7;
+}
+
+.services h1{
+	padding-top: 20px;
+}
+
+
 .fa {
 	font-size: 40px;
 	color: rgba(0, 52, 89, .5);
@@ -130,7 +145,6 @@ a .fa{
 	-moz-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-
 }
 
 a .fa:hover{
@@ -138,18 +152,13 @@ a .fa:hover{
 
 }
 
-/*--------------- Contact -----------------*/
-.contact{
-	background-color: #f7f7f7 ;
+.contact {
+	background: #eee;
 }
-.contact .fa{
-	color: #007ea7;
-}
-/*--------------- Option -----------------*/
+
 .options{
-	padding: 30px 0;
+	padding-top: 20px;
 }
-/*---------------  -----------------*/
 
 input {
 	text-align: center;
@@ -177,7 +186,7 @@ textarea {
 }
 
 .submit {
-	background-color: rgba(0, 52, 89, .8);
+	background-color: #007ea7;
 	color: #fff;
 	font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 16em;
@@ -194,12 +203,11 @@ footer{
 	bottom: 0;
 	color: #fff;
 	padding: 10px;
-	background-color: #007EA7;
-	/*background-color: rgba(0, 52, 89, .7);*/
+	background-color: #007ea7;
 }
 
-::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 @media (max-width: 960px) {
@@ -208,7 +216,7 @@ footer{
 		background-repeat: no-repeat;
 		width: 418px;
 		height: 212px;
-	}
+	}	 
 
 	header.sticky .logo{
 		background-image: url('../img/logo_sticky_m.png');
@@ -224,7 +232,7 @@ footer{
 		background-repeat: no-repeat;
 		width: 232px;
 		height: 211px;
-	}
+	}	 
 
 	header.sticky .logo{
 		background-image: url('../img/logo_sticky_s.png');

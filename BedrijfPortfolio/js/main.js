@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 280){  
+		if ($(this).scrollTop() > 350){  
 			$(".sticky").slideDown("fast");
 	  	}
 	  	else{
