@@ -71,8 +71,8 @@
                 <div class="col-sm-6 col-sm-offset-3">
                     <h1>Wat doen wij</h1>
                     <hr>
-                    <p>Wij zijn Core Code. Wij werken tot in de puntjes. Wij maken websites voor starters en voor ervaren ondernemers. Ons werk is helemaal tot in de puntjes afgewerkt zo als de klant het, het allerliefst had willen zien. Alles wat wij maken, is het uiterste uit gehaald.
-                    We zorgen ervoor dat we niet blijven hangen op het eerste idee, maar dat we zo veel mogelijk geweldige ideeën creëren en daaruit de allerbeste kiezen samen met u.  </p>
+                    <p>Wij zijn Core Code. Ons team bestaat uit 2 interactief vormgevers en 2 media developers. Wij maken websites voor starters en voor ervaren ondernemers. Wij streven ernaar om ons werkt tot in de puntjes afgewerkt af te leveren zo als de klant het allerliefst had willen zien. Alles wat wij maken, is het uiterste uit gehaald.
+                    We zorgen ervoor dat we niet blijven hangen op het eerste idee, maar dat we zo veel mogelijk geweldige ideeën creëren en daaruit de allerbeste kiezen samen met u.</p>
                 </div>
             </div> <!-- about end -->
 
@@ -84,7 +84,7 @@
                     <div class="col-sm-6 p1">
                         <img class="profpic" src="img/profpics/giovanni.png">
                         <h3>Giovanni</h3>
-                        <p>Mijn naam is Giovanni Dwidjosewojo en ben 19 jaar. Ik woon bij mijn ouders thuis in Hoofddorp. Ik zit nu in het 3e jaar van de opleiding Interactief Vormgeven op het Media..
+                        <p>Mijn naam is Giovanni Dwidjosewojo en ben 19 jaar. Ik woon bij mijn ouders thuis in Hoofddorp. Ik zit nu in het 3e jaar van de opleiding Interactief Vormg..
                         <span class="bmore p1open">lees meer > </span>
                         </p>
                     </div>
@@ -193,7 +193,7 @@
 
             <!-- contact begin -->
             <div class="contact col-sm-12">
-                <div class="col-sm-6 col-sm-offset-3">
+                <div class="col-md-6 col-md-offset-3">
                 <h1>Contact</h1>
                 <hr>
                     <div class="options col-sm-12">
